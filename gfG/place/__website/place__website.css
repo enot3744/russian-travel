@@ -1,0 +1,11 @@
+.place__website {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+@media all and (min-width: 320px) and (max-width: 767px) {
+  .place__website {
+    padding: 32px 16px;
+  }
+}

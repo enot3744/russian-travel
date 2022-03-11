@@ -1,0 +1,4 @@
+.inro__lists {
+  display: flex;
+  flex-direction: column;
+}
