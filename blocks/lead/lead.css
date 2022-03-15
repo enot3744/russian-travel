@@ -1,11 +1,10 @@
 .lead {
    display: flex;
    flex-direction: column;
-   align-items: center;
    padding-top: 56px;
 }
   
-@media all and (min-width: 1024px) and (max-width: 1279px) {
+@media all and (min-width: 320px) and (max-width: 1279px) {
   .lead {
     padding-top: 48px;
   }

@@ -4,6 +4,7 @@
   line-height: 18px;
   color: #FFF;
   padding-right: 18px;
+  text-decoration: none;
 }
 
 .footer__link:hover {

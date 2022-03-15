@@ -5,25 +5,25 @@
   font-weight: normal;
   letter-spacing: 0.15em;
   text-transform: uppercase;
-  width: 984px;
+  padding-top: 8px;
+  margin: 0 0 0 148px;
 }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
   .lead__caption {
-    width: 928px;
+    margin-left: 48px;
   }
 }
 
+/* Посмотрел отсупы в макете для 320 и 768, вроде все также*/
 @media all and (min-width: 768px) and (max-width: 1023px) {
   .lead__caption {
-    width: 100%;
-    padding-left: 24px;
+    margin-left: 24px;
   }
 }
 
 @media all and (min-width: 320px) and (max-width: 767px) {
   .lead__caption {
-    width: 100%;
-    padding-left: 16px;
+    margin-left: 16px;
   }
 }
